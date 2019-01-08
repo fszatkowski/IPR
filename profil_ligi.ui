@@ -138,7 +138,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>660</y>
+     <y>510</y>
      <width>231</width>
      <height>41</height>
     </rect>
@@ -159,7 +159,7 @@
    <property name="title">
     <string>Domyślne zasady:</string>
    </property>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -303,8 +303,8 @@
   <widget class="QCommandLinkButton" name="commandLinkButton_3">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>480</y>
+     <x>480</x>
+     <y>620</y>
      <width>391</width>
      <height>41</height>
     </rect>
@@ -317,7 +317,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>620</y>
+     <y>470</y>
      <width>231</width>
      <height>41</height>
     </rect>
@@ -329,8 +329,8 @@
   <widget class="QCommandLinkButton" name="commandLinkButton_5">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>520</y>
+     <x>480</x>
+     <y>660</y>
      <width>361</width>
      <height>41</height>
     </rect>

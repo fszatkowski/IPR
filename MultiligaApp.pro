@@ -73,7 +73,13 @@ SOURCES += \
     gracz_dodaj_nagrode.cpp \
     dodaj_miejsce.cpp \
     edytuj_miejsce.cpp \
-    usun_miejsce.cpp
+    usun_miejsce.cpp \
+    kolejka_dodaj.cpp \
+    kolejka_usun.cpp \
+    kolejka_edytuj.cpp \
+    dodaj_mecz.cpp \
+    usun_mecz.cpp \
+    edytuj_medcz.cpp
 
 HEADERS += \
         logowanie.h \
@@ -123,7 +129,13 @@ HEADERS += \
     gracz_dodaj_nagrode.h \
     dodaj_miejsce.h \
     edytuj_miejsce.h \
-    usun_miejsce.h
+    usun_miejsce.h \
+    kolejka_dodaj.h \
+    kolejka_usun.h \
+    kolejka_edytuj.h \
+    dodaj_mecz.h \
+    usun_mecz.h \
+    edytuj_medcz.h
 
 FORMS += \
         logowanie.ui \
@@ -173,7 +185,13 @@ FORMS += \
     gracz_dodaj_nagrode.ui \
     dodaj_miejsce.ui \
     edytuj_miejsce.ui \
-    usun_miejsce.ui
+    usun_miejsce.ui \
+    kolejka_dodaj.ui \
+    kolejka_usun.ui \
+    kolejka_edytuj.ui \
+    dodaj_mecz.ui \
+    usun_mecz.ui \
+    edytuj_medcz.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
