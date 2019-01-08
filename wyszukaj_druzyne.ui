@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>wyszukaj_druzyne</class>
+ <widget class="QDialog" name="wyszukaj_druzyne">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>485</width>
+    <height>442</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>280</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Wyniki(pojawiają się po kliknięciu szukaj)</string>
+   </property>
+   <widget class="QListView" name="listView_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>421</width>
+      <height>101</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>174</width>
+      <height>89</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_25">
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton_4">
+       <property name="text">
+        <string>Drużyna X</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton_5">
+       <property name="text">
+        <string>Drużyna Y</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>441</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_8">
+    <item>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="title">
+       <string>Wyszukiwanie drużyny</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>421</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>Nazwa</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>Liga</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_21">
+            <property name="text">
+             <string>Poziom ligi</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_18">
+            <property name="text">
+             <string>Miasto</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>Dyscyplina</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_10">
+          <item>
+           <widget class="QLineEdit" name="lineEdit_11"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_10"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_16"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_15"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_14"/>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox_2"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>Szukaj</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
